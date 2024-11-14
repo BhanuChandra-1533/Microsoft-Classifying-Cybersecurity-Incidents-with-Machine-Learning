@@ -13,37 +13,45 @@ This project aims to enhance the efficiency of Security Operation Centers (SOCs)
 * Model Benchmarking and Optimization
 
 # Approach
-1. Data Exploration and Understanding
-   * Initial Inspection: Load the train.csv dataset and inspect its structure.
-   * Exploratory Data Analysis (EDA): Identify patterns, correlations, and potential anomalies.
 
-2.Data Preprocessing
-   * Handling Missing Data: Identify and handle missing values.
-   * Feature Engineering: Create new features or modify existing ones to improve performance.
-   * Encoding Categorical Variables: Convert categorical features into numerical representations.
+**1. Data Exploration and Understanding**
+   * **Initial Inspection:** Load the train.csv dataset and inspect its structure.
+   * **Exploratory Data Analysis (EDA):** Identify patterns, correlations, and potential anomalies.
 
-3.Data Splitting
-   * Train-Validation Split: Split the train.csv data into training and validation sets.
-   * Stratification: Use stratified sampling for imbalanced target variables.
+**2. Data Preprocessing**
+   * **Handling Missing Data:** Identify and handle missing values.
+   * **Feature Engineering:** Create new features or modify existing ones to improve performance.
+   * **Encoding Categorical Variables:** Convert categorical features into numerical representations.
 
-4.Model Selection and Training
-   * Baseline Model: Start with a simple model to establish a performance benchmark.
-   * Advanced Models: Experiment with more sophisticated models like Random Forests and Gradient Boosting Machines.
-   * Cross-Validation: Implement cross-validation to ensure consistent model performance.
+**3. Data Splitting**
+   * **Train-Validation Split:** Split the train.csv data into training and validation sets.
+   * **Stratification:** Use stratified sampling for imbalanced target variables.
 
-5.Model Evaluation and Tuning
-   * Performance Metrics: Evaluate the model using macro-F1 score, precision, and recall.
-   * Hyperparameter Tuning: Fine-tune hyperparameters to optimize performance.
-   * Handling Class Imbalance: Use techniques like SMOTE and adjusting class weights.
+**4. Model Selection and Training**
+   * **Baseline Model:** Start with a simple model to establish a performance benchmark.
+   * **Advanced Models:** Experiment with more sophisticated models like Random Forests and Gradient Boosting Machines.
+   * **Cross-Validation:** Implement cross-validation to ensure consistent model performance.
 
-6.Model Interpretation
-   * Feature Importance: Analyze which features contribute most to predictions.
-   * Error Analysis: Identify common misclassifications for potential improvements.
+**5. Model Evaluation and Tuning**
+   * **Performance Metrics:** Evaluate the model using macro-F1 score, precision, and recall.
+   * **Hyperparameter Tuning:** Fine-tune hyperparameters to optimize performance.
+   * **Handling Class Imbalance:** Use techniques like SMOTE and adjusting class weights.
 
-7.Final Evaluation on Test Set
-   * Testing: Evaluate the model on the test.csv dataset and report final metrics.
-   * Comparison to Baseline: Compare performance on the test set to the baseline model.
+**6. Model Interpretation**
+   * **Feature Importance:** Analyze which features contribute most to predictions.
+   * **Error Analysis:** Identify common misclassifications for potential improvements.
 
-8.Documentation and Reporting
-   * Model Documentation: Document the entire process and key findings.
-   * Recommendations: Provide recommendations for integration into SOC workflows.
+**7. Final Evaluation on Test Set**
+   * **Testing:** Evaluate the model on the test.csv dataset and report final metrics.
+   * **Comparison to Baseline:** Compare performance on the test set to the baseline model.
+
+**8.Documentation and Reporting**
+   * **Model Documentation:** Document the entire process and key findings.
+   * **Recommendations:** Provide recommendations for integration into SOC workflows.
+
+# Project Evaluation metrics:
+The success and effectiveness of the project will be evaluated based on the following metrics:
+   * **Macro-F1 Score:**  A balanced metric that accounts for the performance across all classes (TP, BP, FP), ensuring that each class is treated equally.
+   * **Precision:** Measures the accuracy of the positive predictions made by the model, which is crucial for minimizing false positives.
+   * **Recall:** Measures the model's ability to correctly identify all relevant instances (true positives), which is important for ensuring that real threats are not missed.
+
