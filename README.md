@@ -55,3 +55,11 @@ The success and effectiveness of the project will be evaluated based on the foll
    * **Precision:** Measures the accuracy of the positive predictions made by the model, which is crucial for minimizing false positives.
    * **Recall:** Measures the model's ability to correctly identify all relevant instances (true positives), which is important for ensuring that real threats are not missed.
 
+**Performance Metrics for New Train Sample Dataset (XGBoost Model)**
+Accuracy: 0.7967
+Macro F1 Score: 0.7482
+Precision: 0.7929
+Recall: 0.7265
+
+
+
