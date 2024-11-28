@@ -61,5 +61,27 @@ The success and effectiveness of the project will be evaluated based on the foll
 * Precision: 0.7929
 * Recall: 0.7265
 
+**Performance Metrics for GUIDE Test Dataset (XGBoost Model)**
+* Accuracy: 0.8657
+* Macro F1 Score: 0.8624
+* Precision: 0.8969
+* Recall: 0.8453
+
+# Key Findings
+* The model demonstrates a high level of accuracy, precision, recall, and macro F1 score, indicating its effectiveness in classifying the triage grades of cybersecurity incidents (TP, BP, FP).
+* The XGBoost model performed particularly well on the GUIDE test dataset, achieving an accuracy of 93.32%, which is an improvement over the performance on the new train sample.
+
+# Comparison to Baseline
+* The results from the training and testing datasets indicate that the implemented model significantly outperforms baseline models, showcasing the effectiveness of the selected machine learning techniques and preprocessing strategies.
+
+# Limitations
+* One of the challenges faced during the project was related to local GPU issues while running the model, which affected the training time and efficiency.
+* This issue can be solved by using colab notebook for executing the models.
+
+# Conclusion
+The project successfully developed a machine learning model capable of accurately predicting the triage grade of cybersecurity incidents, with comprehensive analysis and documentation provided. Future improvements could focus on addressing the limitations encountered during model training and exploring additional features for further enhancing model performance.
+
+
+
 
 
